@@ -14,7 +14,7 @@ import (
 
 // Root command
 var mDotaCmd = &cobra.Command{
-	Use:   "teach",
+	Use:   "mTeacher",
 	Short: "main command for this project",
 	Long:  `this command is the entrypoint for our project.`,
 	RunE: func(cmd *cobra.Command, args []string) error {
